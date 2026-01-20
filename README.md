@@ -572,5 +572,3 @@ Contributions are welcome:
 3. Commit your changes (`git commit -m 'Add time-series forecasting'`).
 4. Push to the branch (`git push origin feature/TimeSeriesAnalysis`).
 5. Open a Pull Request.
-6. Push to the branch (`git push origin feature/TimeSeriesAnalysis`).
-7. Open a Pull Request.
