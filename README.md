@@ -5,8 +5,6 @@
 
 Comprehensive statistical analysis of vehicle sales data using univariate, bivariate, and multivariate techniques to identify factors influencing sales, resale values, and market segmentation.
 
----
-
 ## 🎯 TL;DR
 
 This project performs in-depth statistical analysis on 155+ vehicle models across 30 brands, achieving:
@@ -18,8 +16,6 @@ This project performs in-depth statistical analysis on 155+ vehicle models acros
 - **Predictive Model**: Linear regression model with 70% R² for resale value prediction.
 
 Perfect for automotive analysts, market researchers, and data scientists exploring vehicle market dynamics.
-
----
 
 ## 💡 Problem/Motivation
 
@@ -41,8 +37,6 @@ This analysis provides a data-driven approach to:
 - Provide actionable insights for manufacturers, dealers, and consumers.
 
 **Goal**: Uncover the relationships between vehicle attributes (engine size, dimensions, horsepower) and market outcomes (sales, price, resale value) using comprehensive statistical methods.
-
----
 
 ## 📊 Data Description
 
@@ -87,8 +81,6 @@ This analysis provides a data-driven approach to:
 - **Outliers**: 38 models identified as outliers across various metrics.
 - **Correlation Patterns**: Strong correlations between engine size, horsepower, and price (r > 0.7).
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -124,16 +116,12 @@ cluster==2.1.4
 psych==2.3.3
 ```
 
----
-
 ## 🔬 Methodology
 
 ### Analysis Pipeline
 ```
 Data Cleaning → Univariate Analysis → Bivariate Analysis → Multivariate Analysis → Modeling
 ```
-
----
 
 ### Stage 1: Data Cleaning
 
@@ -151,8 +139,6 @@ Data Cleaning → Univariate Analysis → Bivariate Analysis → Multivariate An
 - ✅ No duplicate records.
 - ✅ All categorical variables properly encoded.
 - ✅ Numerical ranges validated against domain knowledge.
-
----
 
 ### Stage 2: Univariate Analysis
 
@@ -192,8 +178,6 @@ Data Cleaning → Univariate Analysis → Bivariate Analysis → Multivariate An
 - **Price Outliers** (9): Mercedes-Benz CL500 ($192.5K), Porsche Carrera Cabrio.
 - **Engine Size Outliers** (3): Dodge Viper (8.0L), Cadillac Escalade (5.7L).
 - **Horsepower Outliers** (2): Dodge Viper (450 HP), Chevrolet Corvette (345 HP).
-
----
 
 ### Stage 3: Bivariate Analysis
 
@@ -271,8 +255,6 @@ Fuel_Capacity ←→ Fuel_Efficiency (r = -0.71)
 - `Power_Performance_Factor` is redundant with `Horsepower` (r = 0.98).
 - Price driven by: Horsepower (r = 0.84), Engine_Size (r = 0.73).
 - Larger vehicles (Curb_Weight) have lower fuel efficiency (r = -0.75).
-
----
 
 ### Stage 4: Multivariate Analysis
 
@@ -416,8 +398,6 @@ Fuel_Capacity ←→ Fuel_Efficiency (r = -0.71)
 
 **Interpretation**: Outlier removal reduced explanatory power but improved prediction accuracy on typical vehicles. Trade-off between capturing market extremes vs. modeling average behavior.
 
----
-
 ## 📈 Results/Interpretation
 
 ### Key Findings Summary
@@ -457,8 +437,6 @@ Fuel_Capacity ←→ Fuel_Efficiency (r = -0.71)
 - **Sales**: Ford F-Series (543.8K units, 10× median).
 - **Price**: Mercedes-Benz CL500 ($192.5K, 10× median).
 - **Performance**: Dodge Viper (8.0L engine, 450 HP).
-
----
 
 ## 💼 Business Impact
 
@@ -519,8 +497,6 @@ Fuel_Capacity ←→ Fuel_Efficiency (r = -0.71)
 - **Insight**: 70% R² for resale value prediction.
 - **Application**: Baseline for advanced ML models (ensemble, neural networks).
 - **Extension**: Incorporate temporal data for time-series forecasting.
-
----
 
 ## 🚀 Getting Started
 
@@ -586,8 +562,6 @@ source("code2.R")  # Lines 400-600
 - K-means clusters (6 clusters).
 - Linear regression model (Resale_Value prediction).
 
----
-
 ## 🤝 Contributing
 
 Contributions are welcome:
@@ -598,3 +572,5 @@ Contributions are welcome:
 3. Commit your changes (`git commit -m 'Add time-series forecasting'`).
 4. Push to the branch (`git push origin feature/TimeSeriesAnalysis`).
 5. Open a Pull Request.
+6. Push to the branch (`git push origin feature/TimeSeriesAnalysis`).
+7. Open a Pull Request.
